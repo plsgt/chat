@@ -28,7 +28,7 @@ Finally starts client Mike:
 >$./chat_client Mike 192.168.1.4 8888
 
 The type in message and console history is like this:
-![image](https://github.com/botaojia/chat/blob/master/example.png)
+![image](example.png)
 
 The chat_server can support multiple room like this:
 >$./chat_server 8888 9999

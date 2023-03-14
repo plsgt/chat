@@ -1,7 +1,7 @@
 CC      = g++
 CFLAGS  = -O3
 OPTION  = -std=c++14
-LIBS    = -lboost_system -lboost_thread -pthread
+LIBS    = -lboost_system -lboost_thread-mt -pthread
 
 all: chat_server chat_client
 
